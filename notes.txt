@@ -1,16 +1,17 @@
-how to get tensorflow to work:
+[how to get tensorflow to work]
 
-follow this guide:
+1. follow this guide:
 https://www.tensorflow.org/install/install_windows
 
 
-then this to get it to work in python3.5:
+2. then this to get it to work in python3.5:
 https://stackoverflow.com/questions/42755129/installing-tensorfow-not-supported-wheel
 
-then this to suppress warning msgs:
+3. then this to suppress warning msgs:
 https://stackoverflow.com/questions/43506709/installing-tensorflow-in-windows-10-using-python35
+>> import os
+>> os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
 
-
-finding the tensorflow env python for pycharm:
+4. finding the tensorflow env python for pycharm:
 The default location - the environment lives under conda_root/envs/tensorflow. The new python interpreter 'll be at conda_root/envs/tensorflow/bin/pythonX.X , such that the site-packages will be in conda_root/envs/tensorflow/lib/pythonX.X/site-packages.
 (source is in pale moon->python/TFlow)
