@@ -1,0 +1,2 @@
+tutorial files located here:
+D:\Programs\Anaconda3\envs\tensorflow\Lib\site-packages\tensorflow\examples\tutorials\mnist
